@@ -18,7 +18,7 @@ export function Header() {
           <MapPin size={22} color="#8047F8" weight="fill" />
           <span className="text-xs">Rio Branco, AC</span>
         </span>
-        <Link to="Checkout" className="bg-yellow-100 p-2 rounded-md">
+        <Link to="cart" className="bg-yellow-100 p-2 rounded-md">
           {cartItens.length > 0 ? (
             <div className="flex">
               <div className="relative">

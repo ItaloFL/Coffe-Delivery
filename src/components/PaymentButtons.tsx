@@ -16,7 +16,7 @@ export function PaymentButtons() {
           selectedButton === 'credit'
             ? 'bg-purple-100 border-[1px] border-purple-300'
             : 'bg-base-400 text-gray-700'
-        } w-[178px] h-[51px] flex items-center text-xs uppercase gap-3 py-2 px-4 rounded-md`}
+        } w-[178px] h-[51px] flex items-center text-xs uppercase gap-3 py-2 px-4 rounded-md transition-colors hover:bg-base-500`}
       >
         <CreditCard color="#8047F8" size={16} />
         Cartão de Crédito
@@ -27,7 +27,7 @@ export function PaymentButtons() {
           selectedButton === 'debit'
             ? 'bg-purple-100 border-[1px] border-purple-300'
             : 'bg-base-400 text-gray-700'
-        } w-[178px] h-[51px] flex items-center text-xs uppercase gap-3 py-2 px-4 rounded-md`}
+        } w-[178px] h-[51px] flex items-center text-xs uppercase gap-3 py-2 px-4 rounded-md transition-colors hover:bg-base-500`}
       >
         <Bank color="#8047F8" size={16} />
         Cartão de Débito
@@ -38,7 +38,7 @@ export function PaymentButtons() {
           selectedButton === 'cash'
             ? 'bg-purple-100 border-[1px] border-purple-300'
             : 'bg-base-400 text-gray-700'
-        } w-[178px] h-[51px] flex items-center text-xs uppercase gap-3 py-2 px-4 rounded-md`}
+        } w-[178px] h-[51px] flex items-center text-xs uppercase gap-3 py-2 px-4 rounded-md transition-colors hover:bg-base-500`}
       >
         <Money color="#8047F8" size={16} />
         Dinheiro
