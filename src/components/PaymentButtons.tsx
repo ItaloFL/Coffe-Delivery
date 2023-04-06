@@ -1,9 +1,15 @@
 import { Bank, CreditCard, Money } from '@phosphor-icons/react'
 import { useState } from 'react'
 
-export function PaymentButtons() {
-  const [selectedButton, setSelectedButton] = useState('')
+interface PaymentoButtonsProps {
+  setSelectedButton: (type: string) => void
+  selectedButton: string
+}
 
+export function PaymentButtons({
+  setSelectedButton,
+  selectedButton
+}: PaymentoButtonsProps) {
   const handleButtonClick = (type: string) => {
     setSelectedButton(type)
   }
