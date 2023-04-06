@@ -6,7 +6,7 @@ import CoffeJSON from '../../CoffesJSON.json'
 export function Home() {
   return (
     <>
-      <div className="relative mx-auto z-10 py-24 grid grid-cols-2 text-base-800">
+      <div className="relative mx-auto z-10 py-36 grid grid-cols-2 text-base-800">
         <main className="max-w-[588px]">
           <h1 className="text-5xl font-extrabold leading-[1.3]">
             Encontre o café perfeito para qualquer hora do dia
@@ -15,7 +15,8 @@ export function Home() {
             Com o Coffee Delivery você recebe seu café onde estiver, a qualquer
             hora
           </p>
-          <div className="bg-app absolute inset-0" />
+          {/* Modificar AQUI */}
+          {/* <div className="bg-app absolute inset-0" /> */}
 
           <ul className="mt-[70px] grid grid-cols-2 gap-y-5">
             <li className="flex items-center gap-3">
@@ -50,7 +51,7 @@ export function Home() {
         </div>
       </div>
 
-      <h2 className="text-[32px] font-extrabold mb-12">Nossos cafés</h2>
+      <h2 className="text-[32px] font-extrabold mb-14 mt-4">Nossos cafés</h2>
       <ul className=" flex flex-wrap gap-11 mb-36">
         {CoffeJSON.map(coffe => {
           return (
