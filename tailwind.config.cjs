@@ -42,6 +42,10 @@ module.exports = {
           200: '#F3F2F2',
           100: '#FAFAFA'
         }
+      },
+      
+      borderColor: {
+        gradient: 'hsl(44, 71, 52, 100%)'
       }
     }
   },
