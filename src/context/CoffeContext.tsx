@@ -1,11 +1,5 @@
 import produce from 'immer'
-import {
-  createContext,
-  ReactNode,
-  useEffect,
-  useReducer,
-  useState
-} from 'react'
+import { createContext, ReactNode, useEffect, useState } from 'react'
 
 type CoffeType = {
   id: string
@@ -28,8 +22,16 @@ interface CoffeContextType {
   cartItens: PurchaseCoffeProps[]
   PurchaseCoffe: (coffe: PurchaseCoffeProps) => void
   RemoveItemToCart: (removeId: string) => void
-
+  adressForSucessData: AdressSucessData
+  setAdressForSucessData: (data: AdressSucessData) => void
   ChangeCartItemQuantity: (coffeId: string, typeQuantityAlter: string) => void
+  clearCart: () => void
+}
+
+interface AdressSucessData {
+  rua: string
+  numero: number
+  paymentMethod: string
 }
 
 interface CoffeContextProps {
@@ -50,6 +52,8 @@ export function CoffeContextProvider({ children }: CoffeContextProps) {
 
     return []
   })
+  const [adressForSucessData, setAdressForSucessData] =
+    useState<AdressSucessData>({} as AdressSucessData)
 
   useEffect(() => {
     localStorage.setItem(
@@ -101,13 +105,20 @@ export function CoffeContextProvider({ children }: CoffeContextProps) {
     }
   }
 
+  function clearCart() {
+    setCartItens([])
+  }
+
   return (
     <CoffeContext.Provider
       value={{
         cartItens,
         PurchaseCoffe,
         RemoveItemToCart,
-        ChangeCartItemQuantity
+        ChangeCartItemQuantity,
+        setAdressForSucessData,
+        adressForSucessData,
+        clearCart
       }}
     >
       {children}
