@@ -8,6 +8,8 @@
 
 # 🎉 Preview
 
+https://user-images.githubusercontent.com/83084631/231232121-5d540fea-d381-455d-b5d7-3714e37adcab.mp4
+
 ---
 
 # 📜 About the Project
