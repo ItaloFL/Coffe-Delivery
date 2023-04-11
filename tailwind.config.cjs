@@ -7,11 +7,11 @@ module.exports = {
         sans: ['Roboto', 'sans-serif'],
         heading: ['Baloo 2']
       },
-
+      
       gridTemplateColumns: {
         checkout: '640px 448px',
         inputGrid: '200px 1fr',
-        secondInputGrid: '200px 276px 60px',
+        secondInputGrid: '200px 276px 60px'
       },
 
       backgroundImage: {
@@ -43,7 +43,7 @@ module.exports = {
           100: '#FAFAFA'
         }
       },
-      
+
       borderColor: {
         gradient: 'hsl(44, 71, 52, 100%)'
       }
