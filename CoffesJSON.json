@@ -5,7 +5,7 @@
       "tagId": "1",
       "tagName": "Tradicional"
     }],
-    "image": "src/assets/Expresso.svg",
+    "image": "./src/assets/Expresso.svg",
     "title": "Café Tradicional",
     "description": "O tradicional café feito com água quente e grãos moídos",
     "priceInCents": 1890
@@ -16,7 +16,7 @@
       "tagId": "1",
       "tagName": "Tradicional"
     }],
-    "image": "src/assets/Americano.svg",
+    "image": "./src/assets/Americano.svg",
     "title": "Expresso Americano",
     "description": "Expresso diluído, menos intenso que o tradicional",
     "priceInCents": 2090
@@ -27,7 +27,7 @@
       "tagId": "1",
       "tagName": "Tradicional"
     }],
-    "image": "src/assets/ExpressoCremoso.svg",
+    "image": "./src/assets/ExpressoCremoso.svg",
     "title": "Expresso Cremoso",
     "description": "Café expresso tradicional com espuma cremosa",
     "priceInCents": 790
@@ -41,7 +41,7 @@
       "tagId": "2",
       "tagName": "Gelado"
     }],
-    "image": "src/assets/CafeGelado.svg",
+    "image": "./src/assets/CafeGelado.svg",
     "title": "Expresso Gelado",
     "description": "Bebida preparada com café expresso e cubos de gelo",
     "priceInCents": 1590
@@ -59,7 +59,7 @@
       "tagId": "2",
       "tagName": "Gelado"
     }],
-    "image": "src/assets/CafecomLeite.svg",
+    "image": "./src/assets/CafecomLeite.svg",
     "title": "Café com Leite",
     "description": "Meio a meio de expresso tradicional com leite vaporizado",
     "priceInCents": 1390
@@ -73,7 +73,7 @@
       "tagId": "3",
       "tagName": "Com Leite"
     }],
-    "image": "src/assets/Latte.svg",
+    "image": "./src/assets/Latte.svg",
     "title": "Chocolate Quente",
     "description": "Bebida feita com chocolate dissolvido no leite quente e café",
     "priceInCents": 1890
@@ -87,7 +87,7 @@
       "tagId": "3",
       "tagName": "Com Leite"
     }],
-    "image": "src/assets/Cubano.svg",
+    "image": "./src/assets/Cubano.svg",
     "title": "Cubano",
     "description": "Drink gelado de café expresso com rum, creme de leite e hortelã",
     "priceInCents": 1490
@@ -98,7 +98,7 @@
       "tagId": "5",
       "tagName": "Havaiano" 
     }],
-    "image": "src/assets/Havaiano.svg",
+    "image": "./src/assets/Havaiano.svg",
     "title": "Havaiano",
     "description": "Bebida adocicada preparada com café e leite de coco",
     "priceInCents": 1290
@@ -109,7 +109,7 @@
       "tagId": "4",
       "tagName": "Especial"
     }],
-    "image": "src/assets/Arabe.svg",
+    "image": "./src/assets/Arabe.svg",
     "title": "Árabe",
     "description": "Bebida preparada com grãos de café árabe e especiarias",
     "priceInCents": 890
@@ -123,7 +123,7 @@
       "tagId": "6",
       "tagName": "Irlandês"
     }],
-    "image": "src/assets/Irlandês.svg",
+    "image": "./src/assets/Irlandês.svg",
     "title": "Irlandês",
     "description": "Bebida a base de café, uísque irlandês, açúcar e chantilly",
     "priceInCents": 790
