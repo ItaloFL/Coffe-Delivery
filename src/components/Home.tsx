@@ -221,7 +221,6 @@ export function Home() {
       <h2 className="text-[32px] font-extrabold mb-14 mt-4">Nossos cafés</h2>
       <ul className=" flex flex-wrap gap-11 mb-36">
         {CoffeJSON.map(coffe => {
-          console.log(coffe.image)
           return (
             <Card
               key={coffe.id}

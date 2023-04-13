@@ -84,10 +84,8 @@ export function Checkout() {
     formState: { errors }
   } = orderForm
 
-  console.log(errors)
 
   function handleSubmitPurchase(data: clientAdressData) {
-    console.log(data)
     setAdressForSucessData(data)
     navigate('/sucess')
     clearCart()

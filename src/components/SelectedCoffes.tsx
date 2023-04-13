@@ -21,8 +21,6 @@ export function SelectedCoffes() {
     ChangeCartItemQuantity(coffeId, 'decrease')
   }
 
-  console.log(cartItens.length)
-
   const totalPrice = cartItens.reduce(
     (acc, coffe) => acc + coffe.price * coffe.quantity,
     0

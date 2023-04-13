@@ -32,6 +32,9 @@ interface AdressSucessData {
   rua: string
   numero: number
   paymentMethod: string
+  cidade: string
+  uf: string,
+  bairro: string
 }
 
 interface CoffeContextProps {

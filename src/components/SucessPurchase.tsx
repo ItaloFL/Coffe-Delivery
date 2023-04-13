@@ -6,7 +6,7 @@ import { CoffeContext } from '../context/CoffeContext'
 export function SucessPurchase() {
   const { adressForSucessData } = useContext(CoffeContext)
 
-  const { paymentMethod, numero, rua } = adressForSucessData
+  const { paymentMethod, numero, rua, cidade, bairro, uf } = adressForSucessData
 
   return (
     <div className="mt-36 flex items-end gap-36">
@@ -26,7 +26,7 @@ export function SucessPurchase() {
               </div>
               <p className="max-w-[310px]">
                 Entrega em <span className="font-bold">Rua {rua}</span>,{' '}
-                {numero} Farrapos - Porto Alegre, RS
+                {numero} {bairro} - {cidade}, {uf}
               </p>
             </div>
           </div>
